@@ -6,13 +6,17 @@ header> div>img{
     width: 80px ;
 }
 .logo-name{
+    margin-left: 800px;
     display: flex;
-    gap: 5px;
+    gap: 15px;
     align-items: center;
     margin-bottom: 20px;
 }
 nav{
     background-color: antiquewhite;
+}
+.nav-logo{
+    text-align: center;
 }
 .navbar{
     padding: 3px 3px;
@@ -32,4 +36,42 @@ nav{
 main{
     max-width: 95%;
     margin: 0 auto;
+    background-color: lightgrey;
+    padding: 13px 13px;
+}
+.sec-1{
+    padding: 10px 10px;
+    background-color: white;
+}
+.status img{
+    width: 220px;
+    height: 220px;
+}
+.status{
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    gap: 100px;
+    justify-items: center;
+    text-align: center;
+}
+.color{
+    padding-left: 15px;
+    background-color: white;
+}
+.sec-3{
+    margin-top: 50px;
+    padding-left: 15px;
+    background-color: white;
+}
+footer{
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+footer img{
+    width: 220px;
+
 }
